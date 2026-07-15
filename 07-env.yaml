@@ -10,4 +10,4 @@ spec:
     - name: project
       value: "roboshop"
     - name: course
-      value: kubernetes
+      value: kubernetes   
