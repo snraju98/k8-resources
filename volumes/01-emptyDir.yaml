@@ -12,7 +12,7 @@ spec:
   containers:
   - image: almalinux
     command: ["sleep", "1000"]
-    name: nginx
+    name: almalinux
     volumeMounts:
     - mountPath: /mnt/nginx/logs
       name: nginx-logs    
