@@ -15,7 +15,7 @@ spec:
     volumeMounts:
     - mountPath: /mnt/nginx-logs
       name: nginx-logs
-      readOnly: true
+      readOnly: true                          
   volumes:
   - name: nginx-logs
     # this creates intially empty directory in the node where pod scheduled
